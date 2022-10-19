@@ -11,3 +11,6 @@ if (mathGrade === "A" && isRoomClean === true) {
 if (mathGrade === "A" || isRoomClean === true) {
   console.log("We can get ice cream!");
 }
+
+// Short Circuiting
+mathGrade === "A" && console.log("I will not print");
